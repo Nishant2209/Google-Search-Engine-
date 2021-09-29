@@ -2,14 +2,31 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    margin-top: 50px;
+    width: 20%;
 }
-form{
-    width: 300px;
-    height: 44px;
-    border-radius: 5px;
+input {
     display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    all: unset;
+    font: 16px system-ui;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.7; 
+  }
+button{
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    border-radius: 1mm;
+    border: 0px ;
 }
