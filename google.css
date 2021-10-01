@@ -45,7 +45,7 @@ section .main .SearchBx .query{
   outline: none;
   font-size: 16px;
   border-radius: 30px;
-  padding-left: 45px;
+  padding-left: 18px;
   padding-right: 60px;
 }
 section .main .SearchBx .icons{
@@ -57,14 +57,12 @@ section .main .SearchBx .icons{
   padding: 12px 20px;
   align-items: center;
   pointer-events: none;
-}
-section .main .SearchBx .icons img{
   max-width: 100%;
 }
 .SearchBtn, .IamfeelingluckyBtn{
   margin: 0 5px;
   margin-top: 20px;
-  padding: 12px 20px;
+  padding: 8px 18px;
   color: #555;
   font-size: 14px;
   border: none;
@@ -80,7 +78,7 @@ section .main .SearchBx .icons img{
   margin: 0 5px;
   margin-top: 20px;
   margin-left: 65px;
-  padding: 12px 20px;
+  padding: 8px 18px;
   color: #555;
   font-size: 14px;
   border: none;
@@ -93,9 +91,11 @@ section .main .SearchBx .icons img{
   border: 1px solid #ccc;
 }
 a[href="Google_Image_Search.html"]{
+  color: gray;
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   top: 50px;
@@ -103,19 +103,23 @@ a[href="Google_Image_Search.html"]{
   text-decoration: none;
 }
 a[href="Google_Advanced_Search.html"]{
+  color: gray;
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
-  top: 80px;
-  right: 10px;
+  top: 75px;
+  right: 12px;
   text-decoration: none;
 }
 a[href="Google_Search.html"]{
+  color: gray;
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+  font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   top: 50px;
@@ -124,4 +128,11 @@ a[href="Google_Search.html"]{
 }
 a:hover{
   color: red;
+}
+.Search{
+ width: 2%;
+ display: block;
+ margin-left: 38%;
+ margin-top: -6%;
+ position: absolute;
 }
