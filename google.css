@@ -76,6 +76,22 @@ section .main .SearchBx .icons img{
 .SearchBtn:hover{
   border: 1px solid #ccc;
 }
+.ISearchBtn{
+  margin: 0 5px;
+  margin-top: 20px;
+  margin-left: 65px;
+  padding: 12px 20px;
+  color: #555;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  outline: none;
+}
+.ISearchBtn:hover{
+  border: 1px solid #ccc;
+}
 a[href="Google_Image_Search.html"]{
   display: flex;
   flex-wrap: wrap;
