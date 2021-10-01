@@ -61,7 +61,7 @@ section .main .SearchBx .icons{
 section .main .SearchBx .icons img{
   max-width: 100%;
 }
-.SearchBtn{
+.SearchBtn, .IamfeelingluckyBtn{
   margin: 0 5px;
   margin-top: 20px;
   padding: 12px 20px;
@@ -73,8 +73,8 @@ section .main .SearchBx .icons img{
   border: 1px solid transparent;
   outline: none;
 }
-.SearchBtn:hover{
-  border: 1px solid #ccc;
+.SearchBtn:hover, .IamfeelingluckyBtn:hover{
+  border: 1px solid blue;
 }
 .ISearchBtn{
   margin: 0 5px;
