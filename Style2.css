@@ -1,0 +1,35 @@
+header{
+    color: black;
+    padding: 24px;
+    height: 64px;
+    font-size:24px;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    margin-left: 48px;
+  }
+  div.FPW {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+  }
+  input[type="text"]
+  {
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form{
+   margin: 50px;
+  }
