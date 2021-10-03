@@ -53,9 +53,6 @@ a:hover{
 a:visited{
   color: #0000EE ;
 }
-a::-ms-tooltip{
-
-}
 a[href="Google_Search.html"]{
   color: gray;
   display: flex;
@@ -73,7 +70,6 @@ div.heading {
   clear: both;
 }
 div.heading div.h1, div.more {
-  float: left;
   display: inline-block;
   min-width: 167px;
   width: 16%;
@@ -84,7 +80,6 @@ div.heading div.h1, div.more {
   vertical-align: middle;
 }
 div.heading div.gap {
-  float: left;
   display: inline-block;
   min-width: 167px;
   min-height: 41px;
@@ -92,7 +87,6 @@ div.heading div.gap {
   width: 50%;
 }
 div.heading div.extra {
-  float: left;
   display: inline-block;
   width: 33%;
   font-size: 15px;
@@ -107,7 +101,6 @@ div.text {
   vertical-align: middle;
 }
 div.heading div.field {
-  float: left;
   display: inline-block;
   min-width: 167px;
   width: 16%;
@@ -118,7 +111,6 @@ div.heading div.field {
   vertical-align: middle;
 }
 div.heading div.box {
-  float: left;
   display: inline-block;
   min-width: 167px;
   min-height: 41px;
@@ -126,7 +118,6 @@ div.heading div.box {
   width: 50%;
 }
 div.heading div.ex1 {
-  float: left;
   display: inline-block;
   width: 32%;
   min-width: 160px;
