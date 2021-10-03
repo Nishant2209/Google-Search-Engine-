@@ -2,19 +2,83 @@
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
-header{
-    color: black;
-    padding: 24px;
-    height: 64px;
-    font-size:24px;
-    text-align: left;
-    justify-content: center;
-    vertical-align: middle;
-  }
-  .appbar {
-    color: #d93025;
-    font-size: 20px;
-    margin: 25px 35px;
-    margin-left: 48px;
-  }
-  
+body{
+  min-height: 100%;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+header
+{
+  color: black;
+  padding: 24px;
+  height: 64px;
+  font-size:24px;
+  text-align: left;
+  justify-content: center;
+  vertical-align: middle;
+}
+.appbar 
+{
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  margin-left: 48px;
+}
+div.jYcx0e 
+{
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+input[type="submit"]{
+  background-color: dodgerblue;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  -webkit-user-select:none;
+  user-select:none;
+  line-height:100%;
+  height:30px;
+  min-width:120px;
+  cursor: pointer;
+  margin: 20px;
+}
+input[type="submit"]:hover{
+  border: 1px solid black;
+}
+a{
+  color: dodgerblue;
+}
+div.text{
+  margin-left: 50px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-style: normal;
+  height: 30px;
+}
+input[type="text"], select{
+
+  text-align: left;
+  float: right;
+  min-width: 167px;
+  min-height: 31px;
+  vertical-align: middle;
+  width: 50%;
+  margin: 10px;
+  border: 1px solid #ccc;  
+}
+a[href="Google_Search.html"]{
+  color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  text-decoration: none;
+}

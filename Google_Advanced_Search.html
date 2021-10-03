@@ -14,45 +14,63 @@
         <div class="appbar">
             <label>Advanced Search</label>    
          </div>
-         <hr>
          <form action="https://www.google.com/advanced_search?as_q=q&as_epq=r&as_oq=s&as_eq=t">
             <div>
-                <label for="h1">Find pages with...</label>
+            <div>
+                &nbsp;
+            <div>
+                <div class="text">                
+                    <label for="h1">Find pages with...</label>
+                </div>
                 <input value="en-IN" name="hl" type="hidden">
             </div>
+            <br>
             <div class="field">
-                <label for="field1">all these words:</label>
+                <div class="text">
+                    <label for="field1">all these words:</label>
+                </div>
                 <input type="text" class="textinput" id="field1" value=""  name="as_q">
             </div>
             <br>
             <div class="field">
-                <label for="field2">this exact word or phrase: </label>
+                <div class="text">
+                    <label for="field2">this exact word or phrase: </label>
+                </div>
                 <input type="text" class="textinput" id="field2" value=""  name="as_epq">
             </div>
             <br>
             <div class="field">
-                <label for="field3">any of this words: </label>
+                <div class="text">
+                    <label for="field3">any of this words: </label>
+                </div>
                 <input type="text" class="textinput" id="field3" value=""  name="as_oq">
             </div>
             <br>
             <div class="field">
-                <label for="field4">none of these words: </label>
+                <div class="text">
+                    <label for="field4">none of these words: </label>
+                </div>
                 <input type="text" class="textinput" id="field4" value=""  name="as_eq">
             </div>
             <br>
             <div class="field">
-                <label for="field5">numbers ranging from: </label>
+                <div class="text">
+                    <label for="field5">numbers ranging from: </label>
+                </div>
                 <input type="text" class="textinput1" id="field5" value=""  name="as_nlo">
                 <span class="seperator">to</span>
                 <input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
             </div>
-            <hr>
-            <div>
+            </div>
+            <div class="text">
                 <label for="h2">Then narrow your results by...</label>
             </div>
+            <br>
             <div class="field">
                 <input id="lr_input" name="lr" value="" type="hidden">
-                <label for="field6">language:</label>
+                <div class="text">
+                    <label for="field6">language:</label>
+                </div>
                 <select name="lr" id="lr_input">
                     <option value="any language">Any Language</option>
                     <option value="Afrikaans">Afrikaans</option>
@@ -103,9 +121,12 @@
                     <option value="Vietnamese">Vietnamese</option>
                 </select>
             </div>
+            <br>
             <div class="field">
                 <input id="cr_input" name="cr" value="" type="hidden">
-                <label for="field7">region:</label>
+                <div class="text">
+                    <label for="field7">region:</label>
+                </div>
             <select id="cr_input" name="cr">
                 <option value="any region">any region</option>
                 <option value="Afganistan">Afghanistan</option>
@@ -356,9 +377,12 @@
                 <option value="Zimbabwe">Zimbabwe</option>
              </select>
             </div>
+            <br>
             <div class="field">
                 <input id="as_qdr_input" name="as_qdr" value="all" type="hidden">
-                <label for="field7">last update:</label>
+                <div class="text">
+                    <label for="field7">last update:</label>
+                </div>
                 <select name="cr" id="as_qdr_input">
                     <option value="anytime">anytime</option>
                     <option value="last 24 hours">last 24 hours</option>
@@ -367,12 +391,18 @@
                     <option value="upto a year ago">upto a year ago </option>
                 </select>
             </div>
+            <br>
             <div class="field">
-                <label for="field8">site or domain:</label>
+                <div class="text">
+                    <label for="field8">site or domain:</label>
+                </div>
                 <input class="jfk-textinput" value="" id="NqEkZd" name="as_sitesearch" type="text">
             </div>
+            <br>
             <div class="field">
-                <label for="field9">terms appearing:</label>
+                <div class="text">
+                    <label for="field9">terms appearing:</label>
+                </div>
                 <input value="any" id="as_occt_input" name="as_occt" type="hidden">
                 <select name="as_occt" id="as_occt_input">
                     <option value="anywhere in the page ">anywhere in the age</option>
@@ -382,16 +412,22 @@
                     <option value="in the links to page ">in the links to page </option>
                 </select>
             </div>
+            <br>
             <div class="field">
-                <a href="https://support.google.com/websearch/answer/510?p=adv_safesearch&hl=en&visit_id=637688605677119051-4266284565&rd=1">SafeSearch:</a>
+                <div class="text">
+                    <a href="https://support.google.com/websearch/answer/510?p=adv_safesearch&hl=en&visit_id=637688605677119051-4266284565&rd=1">SafeSearch:</a>
+                </div>
                 <input value="images" id="as_safesearch_input" name="safe" type="hidden">
                 <select name="safe" id="as_safesearch_input">
                     <option value="Show explicit results">Show explicit results</option>
                     <option value="Hide explicit results">Hide explicit results</option>
                 </select>
             </div>
+            <br>
             <div class="field">
-                <label for="field10">file type:</label>
+                <div class="text">
+                    <label for="field10">file type:</label>
+                </div>
                 <input value="" id="as_filetype_input" name="as_filetype" type="hidden">
                 <select name="as_filetype" id="as_filetype_input">
                     <option value="any format">any format</option>
@@ -407,8 +443,11 @@
                     <option value="Shockwave Flash (.swf)">Shockwave Flash (.swf)</option>
                 </select>
             </div>
+            <br>
             <div class="field">
-                <a href="https://support.google.com/websearch/answer/29508?p=ws_images_usagerights&hl=en&visit_id=637688605677119051-4266284565&rd=1">usage rights:</a>
+                <div class="text">
+                    <a href="https://support.google.com/websearch/answer/29508?p=ws_images_usagerights&hl=en&visit_id=637688605677119051-4266284565&rd=1">usage rights:</a>
+                </div>
                 <input value="" id="as_rights_input" data-name="sur" data-tbs="true" type="hidden">
                 <select name="sur" id="as_rights_input">
                     <option value="not filtered by license">not filtered by license</option>
@@ -418,7 +457,11 @@
                     <option value="free to use, share or modify, even commercially">free to use, share or modify, even commercially</option>
                 </select>
             </div>
-            <input type="submit" value="advanced search">
+            <br>
+            <div class="jYcx0e" style="text-align:right"> 
+                <input id="CIGjud" name="tbs" type="hidden" value=""> <input class="button" value="Advanced Search" type="submit"> 
+            </div>
         </form>
+        <a href="Google_Search.html">Google Search</a>
     </body>
 </html>
