@@ -129,10 +129,3 @@ a[href="index.html"]{
 a:hover{
   color: red;
 }
-.Search{
- width: 2%;
- display: block;
- margin-left: 38%;
- margin-top: -6%;
- position: absolute;
-}
