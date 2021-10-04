@@ -177,7 +177,7 @@ input.dUBGpe {
 }
 .jfk-button {
   border-radius: 2px;
-  cursor: default;
+  cursor: pointer;
   font-size: 13px;
   font-weight: bold;
   text-align: center;
